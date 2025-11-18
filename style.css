@@ -47,8 +47,31 @@ header a{
     width: 100vw;
     height: 100vh;
     color: white;
-    padding: 2rem;
+    padding: 1rem 2rem;
     background-color: var(--primary);
     border-bottom-right-radius: 20rem;
-    
+
 }
+
+.cover1 section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cover2{
+    height: 100vh;
+    padding: 3rem;
+    display: flex;
+
+
+}
+
+.cover2 img{
+    width: 30rem;
+}
+
+.cover2 .contain{
+    width: 30rem;
+}
+
