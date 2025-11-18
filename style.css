@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+:root{
+    --primary: #167a4e;
+    --secondary: #def4f6;
+}
+
+.active-nav{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    color: white;
+    padding: 6px 10px;
+
+}
+
+.cover1{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    padding: 2rem;
+    background-color: var(--primary);
+    border-bottom-right-radius: 20rem;
+    
+}
